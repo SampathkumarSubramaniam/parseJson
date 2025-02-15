@@ -20,6 +20,10 @@ type UserData struct {
 	Skills         SkillSet
 }
 
+func testMe(num1, num2 int) int {
+	return num1 + num2
+}
+
 func main() {
 	var userInfo []UserData
 	fileByte, err := os.ReadFile("resources/test.json")
