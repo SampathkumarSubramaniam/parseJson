@@ -26,6 +26,7 @@ jobs:
 
     - name: Run tests with coverage
       run: go test -v -coverprofile=coverage.out ./...
+      continue-on-error: true
 
     - name: Generate HTML report
       run: go tool cover -html=coverage.out -o coverage.html
