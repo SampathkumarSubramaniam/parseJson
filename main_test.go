@@ -5,6 +5,10 @@ import (
 	"testing"
 )
 
-func TestMe(t *testing.T) {
-	assert.Equal(t, 3, testMe(1, 2))
+func TestMeAdd(t *testing.T) {
+	assert.Equal(t, 3, testMeAdd(1, 2))
+}
+
+func TestMeSub(t *testing.T) {
+	assert.Equal(t, 3, testMeSub(1, 2))
 }

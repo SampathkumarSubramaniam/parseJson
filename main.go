@@ -20,8 +20,12 @@ type UserData struct {
 	Skills         SkillSet
 }
 
-func testMe(num1, num2 int) int {
+func testMeAdd(num1, num2 int) int {
 	return num1 + num2
+}
+
+func testMeSub(num1, num2 int) int {
+	return num1 - num2
 }
 
 func main() {
